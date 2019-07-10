@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Omar Shahin's CV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href='http://pics.cssbakery.com/pics/css/verticalbargraph.css' rel='stylesheet'type='text/css'/>
+    <style>
+        hr {
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: 0%;
+            border-style: inset;
+            border-width: 1px;
+        }
+    </style>
+</head>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">CV</a>
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#1">Personal</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#2">Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#3">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#4">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#5">Education</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#6">Courses</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#7">Programming Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#8">Events</a>
+        </li>
+    </ul>
+</nav>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox" >
+        <div class="carousel-item active" >
+            <div class="view" >
+                <img class="d-block w-100" src="img1.jpeg" style="max-width:100%;height:auto;"
+                     alt="First slide">
+                <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Graduation project discussion</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="img2.jpeg" style="max-width:100%;height:auto;"
+                     alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">My friend's wedding</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="img3.jpeg" style="max-width:100%;height:auto;"
+                     alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Relaxing</h3>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+<br> <br>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
+<!-- declaring navBar -->
+<!-- Id "4" (profile) -->
+<div class="container" id="4" style="color: #0f3e68">
+    <div class="jumbotron">
+        <h2>Profile</h2>
+        <p>
+        <ul>
+            Iam a fresh graduated computer information systems (CIS) ,
+            with passion for developing innovative programs that expedite
+            the efficiency and effectiveness of organizational success.
+            W-versed in technology and writing code to create systems that
+            are reliable and user-friendly . Skilled leader who has the
+            proven ability to motivate ,educate and manage a team of
+            professionals to build software programs and effectively track
+            changes . Confident communicator , strategic thinker and
+            innovative creator to develop software that is customized to
+            meet a company's organizational needs , and ready to learn
+            new things to help the company
+        </ul>
+        </p>
+    </div>
+    <div class="test rounded-circle">
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="container-fluid" id="1">
+        <div class="row">
+            <div class="col-lg bg-primary" style="color:white"> <h2>Personal</h2>
+                <p>
+                    <ol> Birthday : sep/1/1996 </ol>
+                    <ol> Nationality : Jordanian</ol>
+                    <ol> Relationship : Single</ol>
+                    <ol> Language : Arabic , English</ol>
+                </p>
+            </div>
+            <div class="col-lg bg-primary" style="color: white" id="2"><h2>Skills</h2>
+                <p>
+                    <ol> Creativity </ol>
+                    <ol> Teamwork</ol>
+                    <ol> Leadership</ol>
+                    <ol> organization</ol>
+                    <ol> communication</ol>
+                    <ol> Work under pressure</ol>
+                </p></div>
+            <div class="col-lg bg-primary" style="color: white" id="5"><h2>Education</h2>
+                <p>
+                <ol> 2014-2019 <br>
+                     University of petra. <br> <br>
+               bachelor degree of Computer Information Systems (CIS)
+                </ol>
+                </p>
+        </div>
+            <div class="col-lg bg-primary" style="color:white" id="3"><h2>Contact</h2>
+                <p>
+                <ol> Phone Number : 0796866893 </ol>
+                <ol> Email Address : omar.shahin1996@gmail.com</ol>
+                <ol> Address : Amman , Jordan</ol>
+                </p>
+            </div>
+    </div>
+</div>
+    <br>
+    <hr>
+    <br>
+    <!-- Id "6" (Courses) -->
+    <div class="container" id="6" style="color: #0f3e68">
+        <div class="jumbotron">
+            <h2>Courses</h2>
+            <p>
+           <ul>
+            Swift
+            <br>
+            Udemy (period => 30 hours)
+            <ol>
+                Course Description : This course for anyone  who want to be Swfit4 programmer from scratch,
+                We will  start by discus all programming fundamentals that you need to start programming Swfit4 .
+                We will start first by install the development environment then you will run your first Swfit4 app,
+                and understand how program flow works in Swfit4 .
+                Then we will talk about variables and Math operation and proirites.
+                Then we will take about logic and making decision, then we will talk about loops. Then we will talk
+                about  how to work with files.Then we will talk about functions and OOP concept that you need to use
+                when you program apps with Swfit4 , then we will talk about collections and which type collection
+                you have to use for better performance  depend on your app. then we will talk about multi-processing
+                and how you could run multi-process in same time. Then you will learn how to build apps and game in
+                IOS like pockemon and tic tac toy and work with restful web services and  JSON by build apps like get
+                sunshine time. Also you will learn how to work with sqlite database to add, delete and update records,
+                also you will learn how to use Firebase for online gaming and build social media app like twitter,  and more
+            </ol>
+            <br>
+        </ul>
+            <ul>
+                Oracle
+                <br>
+                Self-learning
+                <ol> Course Description : Get ready to acquire some seriously marketable programming skills! You can't
+                    consider yourself a complete end to end developer until you can code in SQL. Today, data has become
+                    the hottest topic in technology and a company's biggest asset is their data. All databases require
+                    the language SQL to store and retrieve data. Salaries for junior level SQL Developers are upwards
+                    of $70,000 - $90,000 dollars a year! The great thing is, for this course, you do not need any prior
+                    experience in programming what so ever. SQL is a different animal and we're going to demystify the
+                    language from scratch and prepare you with plenty of progressively challenging assignments so that
+                    by the time you've completed the course (in 2 months), you can call your self an Oracle SQL Master!
+                    Oracle is the most popular relational database in the world! This course will prepare you to be
+                    job-ready in just 1 month of study and practice.
+                </ol>
+            </ul>
+            </p>
+        </div>
+        <div class="test rounded-circle">
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container">
+            <h2 style="color:white" class="bg-danger" id="7">Programming Skills</h2>
+            <br> <br>
+            <h2>PHP</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+            </div>
+        </div>
+        <br> <br>
+        <div class="container">
+            <h2>JAVA</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width:60%">60%</div>
+            </div>
+        </div>
+        <br> <br>
+        <div class="container">
+            <h2>HTML</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width:80%">80%</div>
+            </div>
+        </div>
+        <br> <br>
+        <div class="container">
+            <h2>CCNA</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width:90%">90%</div>
+            </div>
+        </div>
+        <br> <br>
+        <div class="container" >
+            <h2>DATABASE (SQL)</h2>
+            <div class="progress">
+                <div class="progress-bar" style="width:80%">80%</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <div class="container" id="8">
+        <h2 style="color: white"  class="bg-danger">Events</h2>
+            <br> <br>
+        <p>
+            <ol>
+            Usher at Smart Hackathon (Programming competition) with aspire company in ZINC
+        </ol>
+        </p>
+            <p>
+            <ol>
+                Usher at IT Dreps (World conference in technology and research) in Petra university
+            </ol>
+            </p>
+            <br> <br>
+        </div>
+</body>
+</html>
